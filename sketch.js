@@ -51,6 +51,12 @@ mango15=new Mango(1150+200,245,48.2,60)
 function draw() {
   rectMode(CENTER);
   background(backgroundimg);
+  textFont("colonna MT")
+  strokeWeight(2)
+  stroke("white")
+  fill("red")
+  textSize(50)
+  text("Press space to get a second chance!!",200,100)
   boy.display()
   tree.display()
   stone.display()
